@@ -1,0 +1,91 @@
+Curs4 -Full Stack PHP
+
+Salutare!
+HTML - W3schools site
+
+In cursul 4 continuam cu urmatoarele 5 capitole din html:
+-HTML Links
+-HTML Images
+-HTML Tables
+-HTML Lists
+-HTML Block and Inline Elements
+
+Aici lucrurile sunt foarta clare. Daca aveti intrebari, va rog sa le puneti in clasa!
+
+
+TEMA
+1) Va rog sa faceti un director "tema4" in htdocs din xampp, iar in interiorul acestui director sa faceti o pagina index.html in care sa folositi ce ati invatate in acest curs.
+Sa scrieti codul curat si indentat. Rezultatul o sa-l vedeti ruland in browser: http://localhost/tema4/index.html
+Comiteti codul in git asa cum am spus mai jos.
+Termen: Miercuri 29.01.2020 inclusiv.
+
+CSS
+Urmatoarele 5 capitole:
+-CSS Height and Width
+-The CSS Box Model
+-CSS Outline
+-CSS Text
+-CSS Fonts
+
+la fel aca si la HTML nu sunt lucruri complicate care sa necesite explicari din partea mea.
+TEMA
+
+Va rog sa faceti o pagina html in xampp, htdocs in directorul "tema4" un fisier html: tema4css.html"
+In acest fisier va rog sa aplicati ce ati invatat in capitolele din acest curs. Va rog sa folositi doar un fisier extern custom css, fara inline si embedded.
+Comiteti codul in git asa cum am spus mai jos.
+
+JavaScript
+Continuati cu urmatoarele 5 capitole:
+-JavaScript Where To
+-JavaScript Output
+-JavaScript Statements
+-JavaScript Syntax
+-JavaScript Comments
+
+Tema
+Va rog sa faceti o pagina html in xampp, htdocs in directorul "tema4" un fisier html: tema4js.html"
+In acest fisier va rog sa aplicati ce ati invatat in capitolele din acest curs.
+Comiteti codul in git asa cum am spus mai jos.
+
+PHP
+Incepand cu acest curs, incep si PHP-ul
+
+PHP este un limbaj de backend, asemanator cu JAVA. Acesta este un limbaj intrpretat si nu compilat. Java este un limbaj compilat.
+Peste 95% din site-urile din internet sunt facute in PHP.
+Incepeti cu primele 6 capitole:
+-PHP Home
+-PHP Introduction
+-PHP Syntax
+-PHP Comments
+-Creating (Declaring) PHP Variables
+-PHP echo and print Statements
+
+Orice fisier PHP are extensia php.
+Orice script php incepe cu tag-ul: <?php si se termina cu tag-ul ?> numai daca mai urmeaza cod html, daca este numai cod php nu este obligatoriu.
+
+Tema 
+Va rog sa faceti o pagina php in xampp, htdocs in directorul "tema4" un fisier php: tema4.php"
+In acest fisier va rog sa faceti primul vostru script php "Hello world" folosind instructiunea echo.
+
+
+Incepand cu acest curs o sa invatam si git.
+Toate temele le veti comite in git.
+
+Vom utiliza github. Acesta este un repozitoriu. Cu alte cuvinte, tot ce lucrati local o sa commiteti in github.
+1) Va faceti un cont pe github.
+2) Dupa ce ati intrat in cont, va duceti pe "Rpositories: si dati "New"
+3) Dati numele ProiectITutor, acesta este public, dati ok
+4) In directorul tema4, inainte sa incepeti dati, git clone ...... (copiati ce aveti la ssh in repo)
+5) Incepeti sa lucrati local, dupa ce terminati faceti:
+git add .
+git commit -m "Trimitere tema"
+git push origin dev
+
+
+Imi puneti in google drive link-ul catre repozitoriul vostru git. Incepand cu aceasta tema, trecem la un al nivel si renuntam la jsfiddle.
+Stiu ca este greu,dar impreuna o sa reusim.
+
+Succes! Pentru orice intrebare sunt aici!
+
+
+
