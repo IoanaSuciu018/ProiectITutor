@@ -1,0 +1,25 @@
+1. Please explain the PHP for Loop and PHP foreach Loop.
+2.PHP for Loop - is refering on counting numbers ?
+3.PHP foreach Loop - this used for display the whole value of an given array?
+
+4.On the following example:
+var x = 0xFF;
+document.getElementById("demo").innerHTML = "0xFF = " + x;
+The  result is 0xFF = 255. If I erase an 'F' the result will be 15. 
+I did not understood the logic behind?
+
+5. JS- finding string in a string
+indexOf(), and lastIndexOf()
+In the following examples:
+
+var str = "Please locate where 'locate' occurs!";
+var pos = str.indexOf("locate");
+document.getElementById("demo").innerHTML = pos;
+Why is giving me position 7 for "locate" word?
+
+6. var str = "Please locate where 'locate' occurs!";
+var pos = str.lastIndexOf("locate");
+document.getElementById("demo").innerHTML = pos;
+Why is giving me position 21 for "locate" word?
+
+ 
