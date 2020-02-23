@@ -73,3 +73,7 @@ function myAnimals() {
 }
 <button onclick="myAnimals()">Add a Pet...</button>
 
+6. Strict declaration- care ii este scopul?
+7.for Loop - tot nu imi e in clar la ce se foloseste ? Unde si cand trebuie folosit?
+
+
