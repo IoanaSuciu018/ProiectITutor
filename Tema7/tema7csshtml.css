@@ -1,0 +1,137 @@
+body {
+  margin: 100;
+  padding: 100;
+  background-image: url("https://www.jakpost.travel/wimages/large/187-1876862_sky-blue-powerpoint-background-pictures-light-blue-backgrounds.jpg");
+  background-repeat: repeat;
+}
+span.number {
+  font-size: 100%;
+  color: black;
+}
+.capitol {
+  background-color: rgb(144, 203, 238);
+  color:black;
+  margin: 20px;
+  padding: 20px;
+}
+div.head > h1{
+  border-style: outset;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+#title {
+  font-size: 150%;
+  background-color: rgb(0, 204, 255);
+  color: black;
+  padding: 40px;
+  text-align: center;
+  }
+#date {
+  font-size: 150%;
+  color: rgb(0, 17, 255);
+  text-align: center;
+  opacity: 0.75;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+img:hover {
+  opacity: 0.5;
+}
+address {
+  padding: 0px;
+  background-color: rgb(90, 30, 255);
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid black;
+  color: black;
+  position: sticky;
+  bottom: 0;
+  }
+#end {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  }
+a:link {
+  color: black;
+  background-color:white;
+  text-align: center;
+}
+a:visited {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+a:hover {
+  color: red;
+  background-color: yellow;
+  text-align: center;
+}
+a:active {
+  color: green;
+  background-color: white;
+  text-align: center;
+}
+ol li {
+  background: #e5f0ff;
+  padding: 5px;
+  margin-left: 35px;
+}
+ol {
+  background: #c599ff;
+  padding: 20px;
+}
+#tabel {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#tabel td, #tabel th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#tabel tr:nth-child(even){background-color: #f2f2f2;}
+#tabel tr:hover {background-color: #ddd;}
+#tabel th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+div.subtitle {
+  position: relative;
+  text-align: center;
+  left: 30px;
+}
+div.absolut {
+  position: relative;
+  left: 30px;
+  background-color: #eee;
+  width: 200px;
+  height: 100px;
+  border: 1px dotted black;
+  overflow: scroll;
+}
+* {
+  box-sizing: border-box;
+}
+.box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

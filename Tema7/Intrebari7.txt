@@ -1,0 +1,75 @@
+1. In exemplul urmator :
+Am un input de tip "range" de la 0 la 100. 
+
+ <form action="/action_page.php"
+    oninput="x.value=parseInt(a.value)>
+      <label for="chapterCSS">What is the procentage that you consider the CSS usefull in a HTML page?:</label>
+      0
+      <input type="range" id="a" name="a" value="50">
+      100
+      <output name="x" for="a"></output>
+      <br><br>
+      <input type="submit" value="Submit">
+ </form>
+
+Cum ii pot da valoarea de mijloc sa fie "50" dar vizibila? 
+0______50_____100
+ 
+
+2. HTML Forms poate fi aplicat si pentru a te redirectiona catre alte pagini?
+
+In exemplul urmator : 
+
+<h4 id="chapterHTML">&diams; About HTML</h4>
+    <form action="/form.page.php">
+      <label for="HTML">Which of the following chapter is more usefull:</label>
+      <select id="HTML" name="chapters">
+        <option value="forms">Forms</option>
+        <option value="felements">Form Elements</option>
+        <option value="inputtypes">Input Types</option>
+        <option value="inputattributes">Input Attributes</option>
+        <option value="ifattributes">Input Form Attributes</option>
+      </select>
+      <input type="submit" value="Submit">
+    </form>
+Fiecare optiune poate sa faca redirectionare catre un capitol de pe pagina W3school?
+
+3. In exemplul urmator am un Array scris in pagina de JS si functia forEach() scrisa in custom JS:
+
+<p id="contries">Romania, Grecia, Ungaria, Italia, Franta, Germania.</p>
+
+var contries, text;
+contries = ["Romania", "Grecia", "Ungaria", "Italia", "Franta","Germania"];
+text = "<ul>";
+cotries.forEach(myFunction);
+text += "</ul>";
+document.getElementById("contries").innerHTML = text;
+function myFunction(value) {
+  text += "<li>" + value + "</li>";
+} 
+
+Pt afisarea elementelor din array nu putem renunta la partea definirii variabilei :
+var contries, text;
+contries = ["Romania", "Grecia", "Ungaria", "Italia", "Franta","Germania"];
+
+Si sa apelam functia direc pe ID ?
+
+document.getElementById("contries").innerHTML = text;
+function myFunction(value) {
+  text += "<li>" + value + "</li>";
+
+4. De ce e indicat sa folosim in array-ul urmator [] si nu ()?
+
+var points = new Array();     // Bad
+var points = [];              // Good
+
+5. unshift() method - De ce nu imi functioneaza butonul pt a adauga si "Monkey" in fata celorlate animale?
+
+var pets = ["Cat", "Dog", "Mouse", "Parrot"];
+document.getElementById("pets").innerHTML = pets;
+function myAnimals() {
+  animals.unshift("Monkey");
+  document.getElementById("pets").innerHTML = pets;
+}
+<button onclick="myAnimals()">Add a Pet...</button>
+

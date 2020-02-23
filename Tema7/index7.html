@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="HTML, CSS, PHP, JavaScript">
+<meta name="description" content="My first Web page!">
+<meta name="author" content="Ioana Suciu">
+<meta http-equiv="refresh" content="60">
+<link rel="stylesheet" href="tema7csshtml.css">
+</head>
+<body>
+  <div class="head">
+    <h1>Homework <span class="number"># 7</span> by Ioana Suciu &spades;</h1>
+  </div>
+  <div class="subtitle">
+    <h3>My first Web page! &clubs;</h3>
+  </div>
+    <h2 id="date"><b>16-22.02.2020</b></h2>
+<fieldset class="formstypes">
+  <legend>Forms Types:</legend>
+  <h4 id="chapterHTML">&diams; About HTML</h4>
+    <form action="/form.page.php">
+      <label for="HTML">Which of the following chapter is more usefull:</label>
+      <select id="HTML" name="chapters">
+        <option value="forms">Forms</option>
+        <option value="felements">Form Elements</option>
+        <option value="inputtypes">Input Types</option>
+        <option value="inputattributes">Input Attributes</option>
+        <option value="ifattributes">Input Form Attributes</option>
+      </select>
+      <input type="submit" value="Submit" formmethod="GET">
+    </form>
+  <h4 id="chapterCSS">&diams; About CSS</h4>
+    <form action="/form.page.php"
+    oninput="x.value=parseInt(a.value)">
+      <label for="chapterCSS">What is the procentage that you consider the CSS usefull in a HTML page?</label>
+      0
+      <input type="range" id="a" name="a" value="50">
+      100
+      <output name="x" for="a"></output>
+      <br><br>
+      <input type="submit" value="Submit" formmethod="GET" formtarget="_blank">
+    </form>
+  <h4 id="chapterJS">&diams; About JavaScript</h4>
+    <p>In order to read about Java Scrip Chapters please enter your email address and click on <strong>Submit</strong> button.</p>
+    <form action="/form.page.php">
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" name="email">
+      <input type="submit" value="Submit">
+    </form>    
+  <h4 id="chapterPHP">&diams; About PHP</h4>
+  <p>Please enter 3 things that you like about PHP:</p>
+  <form action="/form.page.php">
+    <textarea name="message" >...</textarea>
+    <br>
+    <input type="submit" value="Done">
+  </form>
+</fieldset>
+    <p id= "title">It's all about Full Stack</p>
+    <img src="img4-4.jpg" alt="Joke1" style="max-width:100%;height:auto;">
+    <!-- Here is the link for all tutorilas -->
+    <p><a href="https://www.w3schools.com">Visit our HTML/CSS/PHP and JavaScript tutorials</a></p>
+    <p>Click on the right or left on the image:</p>
+<img src="img4.jpg" alt="Front-end/Back-end" usemap="#workmap" style="max-width:100%;height:auto;">
+<p>
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Front-end" href="https://www.udemy.com/">
+  <area shape="circle" coords="290,172,333,250" alt="Back-end" href="https://www.udemy.com/">
+</p>
+<p>Print the document by pressing <kbd>Ctrl + P</kbd></p>
+    <h2>Basic HTML Table</h2>
+<table id= "tabel">
+  <tr>
+    <th>Program</th> 
+    <th>Chapters</th>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>Links, Images, Tables, Lists, Block and Inline Elements</td>
+  </tr>
+  <tr>
+    <td>CSS</td>
+    <td>Height and Width, CSS Box Model, Outline, Text , Fonts</td>
+  </tr>
+  <tr>
+    <td>JavaScript</td>
+    <td>Where To, Output, Statements, Syntax, Comments</td>
+  </tr>
+  <tr>
+    <td>PHP</td>
+    <td>Data Types, Strings, Numbers,  Constants, Operators</td>
+  </tr>
+<div class= "absolut">
+<pre>
+  <code>
+    x = 18;
+    y = 12;
+    z = x + y;
+  </code>
+</pre>
+</div>
+<p id= "end">
+    This is the end of homework <sub>#6.</sub>
+</p>
+<div class="clearfix">
+  <div class="box">
+    <img id= "poza" src="poza.jpg">
+  </div>
+  <div class="box">
+   <p>Some pics in the box! &spades;</p>
+  </div>
+  <div class="box">
+    <img id= "poza" src="poza.jpg">
+  </div>
+</div>
+<address>
+Written by Ioana S.<br/>
+Visit me at:<br/>
+https://miresicafashionista.wordpress.com/<br/>
+<!-- Blogul from 2014 -->
+</address>
+</body>
+</html>
