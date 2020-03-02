@@ -1,0 +1,25 @@
+1. Cum fac sa imi apara eroarea in fromularul din HTLMform8.html fara sa folosesc taguri PHP:
+E-mail:
+<input type="text" name="email">
+<span class="error">* <?php echo $emailErr;?></span>
+<br><br>
+
+2. Forms Validation - Nu am inteles cum sa folosim partea asta de "action" :
+
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+Ca sa imi pot trimite datele din HTML in PHP doar prin metoda asta am reusit :
+
+<form method="post" action="tema8.php">
+
+3. Este corect sa adaugam mai multe If-uri pt un singur element ?
+ex:
+if (empty($_POST["website"])) {
+    $website = "";
+} 
+else {
+    $website = show_input($_POST["website"]);
+}
+if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website)) {
+    $websiteErr = "Invalid URL";
+}
