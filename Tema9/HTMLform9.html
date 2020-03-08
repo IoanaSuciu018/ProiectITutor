@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forms Homework 8</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="60">
+<link rel="stylesheet" href="tema8css.css">
+</head> 
+<body>
+<fieldset class="formtypes">
+<legend>PHP forms:</legend>
+<p>&diam;Form 1 &diam;</p>
+    <form id="Form1" method="post" action="tema8.php">
+        Name: <input type="text" name="name">
+        <br><br>
+        E-mail: <input type="text" name="email">
+        <br><br>
+        Website: <input type="text" name="website">
+        <br><br>
+        Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+        <br><br>
+        Gender:
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="other">Other
+        <br><br>
+        <input type="submit" name="submit" value="Submit">  
+    </form>
+<p>&diam;Form 2 &diam;</p>
+<p><span class="error">* Required field</span></p>
+<form method="post" action="tema8.php">  
+  Name: <input type="text" name="name">
+  <span class="error">*</span>
+  <br><br>
+  E-mail: <input type="text" name="email">
+  <span class="error">*</span>
+  <br><br>
+  Website: <input type="text" name="website">
+  <span class="error"></span>
+  <br><br>
+  Comment: <textarea name="comment" rows="5" cols="40"></textarea>
+  <br><br>
+  Gender:
+  <input type="radio" name="gender" value="female">Female
+  <input type="radio" name="gender" value="male">Male
+  <input type="radio" name="gender" value="other">Other
+  <span class="error">*</span>
+  <br><br>
+  <input type="submit" name="submit" value="Submit">  
+</form>
+</fieldset>    
+</body>
+</html>   

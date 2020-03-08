@@ -1,0 +1,5 @@
+1. De ce adaugam cuvantul "new" ? L-am intalnit in mai multe variabile si nu inteleg de ce se pune.
+ ex: 
+var y = new Boolean(false)
+
+2. Nu am inteles diferenta dintre "==" si "===".

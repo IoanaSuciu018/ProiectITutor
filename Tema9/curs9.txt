@@ -1,0 +1,68 @@
+Curs9 -Full Stack PHP
+
+Salutare clasa!
+HTML - W3schools site
+
+In cursul 9 continuam cu HTML Example.
+
+
+TEMA
+1)Va rog sa faceti un director "tema9" in htdocs din xampp, iar in interiorul acestui director sa faceti o pagina index.html in care sa puneti exemplele din acest capitol.
+Sa scrieti codul curat si indentat. Rezultatul o sa-l vedeti ruland in browser: http://localhost/tema9/index.html
+Comiteti codul in git.
+
+
+CSS
+Urmatoarele 5 capitole:
+-CSS Forms
+-CSS Counters
+-CSS Website Layouts
+-CSS Units
+-CSS Specificity
+
+Va rog sa faceti o pagina html in xampp, htdocs in directorul "tema9" un fisier html: tema9css.html"
+In acest fisier va rog sa aplicati ce ati invatat in capitolele din acest curs. Va rog sa folositi doar un fisier extern custom css, fara inline si embedded.
+Comiteti codul in git asa cum am invatat.
+
+JavaScript
+Continuati cu urmatoarele 5 capitole:
+
+-JavaScript Random
+-JavaScript Booleans
+-JavaScript Comparison and Logical Operators
+-JavaScript if else and else if
+-JavaScript Switch Statement
+
+Tema
+Va rog sa faceti o pagina html in xampp, htdocs in directorul "tema9" un fisier html: tema9js.html"
+In acest fisier va rog sa aplicati ce ati invatat in capitolele din acest curs.
+Comiteti codul in git asa cum am invatat.
+
+PHP
+-PHP Date and Time
+-PHP Include Files
+-PHP File Handling
+-PHP File Open/Read/Close
+
+Tema 
+Va rog sa faceti o pagina php in xampp, htdocs in directorul "tema9" un fisier php: tema9.php"
+In acest fisier va rog aplicati ce ati invata in acest curs8
+
+MySql-SQL
+
+Urmatoarele 5 capitole
+1) SQL WHERE Clause
+2) SQL AND, OR and NOT Operators
+3) SQL ORDER BY Keyword
+4) SQL INSERT INTO Statement
+5) SQL NULL Values
+
+Tema:
+Exersati aceste comenzi pe tabela users creata la tema8.
+
+Nu uitati de intrebari.
+
+Succes! Pentru orice intrebare sunt aici!
+
+
+
