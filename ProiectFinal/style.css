@@ -1,0 +1,132 @@
+/* Global section box model */
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+/* Navigator bar */
+nav {
+    text-align: center;
+    background: grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(161, 172, 172);
+}
+/* Content */
+h1,h2,h3 {
+    font-family: 'Caveat', cursive;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+h3 {
+    font-size: 20px;
+    margin: 0;
+}
+h2, p {
+    margin: 0;
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: hidden;
+}
+a {
+    color: rgb(18, 72, 104);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+/* Header and footer */
+header,footer {
+    background: #2D2B42;
+    color: #8D99AE;
+    text-align: center;
+}
+header {
+    padding-top: 50px;
+    position: relative;
+}
+header h1, header h2 {
+    color: #EDF2F4
+}
+footer {
+    text-align: center;
+}
+/* Work section */
+.work {
+    background: #EDF2F4;
+}
+.education {
+    background: #8D99AE;
+}
+.skills {
+    background: #EDF2F4;
+}
+.contact a {
+    background: white;
+    margin : 10px;
+    display: inline-block;
+}
+.profile_img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 200px;
+    border: 1px solid black;
+    text-align: center;
+}
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 200px;
+    border: 1px solid black;
+}
+h3 ~ p {
+    margin: 0;
+}
+.uppercase {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.job-description p:first-of-type {
+    margin-top: 20px;
+    text-align: center;
+}
+.btn {
+    text-decoration: none;
+    background:   grey;
+    color: rgb(8, 47, 114);
+    padding: 5px;
+    display: inline-block;
+}
+
+
+
+
+
